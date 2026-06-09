@@ -1,15 +1,1 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-
-const NotFound = () => {
-  const navigate = useNavigate();
-  useEffect(() => { setTimeout(() => navigate("/"), 3000); }, []);
-  return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <h1 className="text-4xl font-bold mb-4">404</h1>
-      <p className="text-gray-600">Página não encontrada. Redirecionando...</p>
-    </div>
-  );
-};
-
-export default NotFound;
+aW1wb3J0IHsgdXNlTG9jYXRpb24gfSBmcm9tICJyZWFjdC1yb3V0ZXItZG9tIjsKaW1wb3J0IHsgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwoKY29uc3QgTm90Rm91bmQgPSAoKSA9PiB7CiAgY29uc3QgbG9jYXRpb24gPSB1c2VMb2NhdGlvbigpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgY29uc29sZS5lcnJvcigKICAgICAgIjQwNCBFcnJvcjogVXNlciBhdHRlbXB0ZWQgdG8gYWNjZXNzIG5vbi1leGlzdGVudCByb3V0ZToiLAogICAgICBsb2NhdGlvbi5wYXRobmFtZQogICAgKTsKICB9LCBbbG9jYXRpb24ucGF0aG5hbWVdKTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IG1pbi1oLXNjcmVlbiBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgYmctbXV0ZWQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIiPgogICAgICAgIDxoMSBjbGFzc05hbWU9Im1iLTQgdGV4dC00eGwgZm9udC1ib2xkIj40MDQ8L2gxPgogICAgICAgIDxwIGNsYXNzTmFtZT0ibWItNCB0ZXh0LXhsIHRleHQtbXV0ZWQtZm9yZWdyb3VuZCI+T29wcyEgUGFnZSBub3QgZm91bmQ8L3A+CiAgICAgICAgPGEgaHJlZj0iLyIgY2xhc3NOYW1lPSJ0ZXh0LXByaW1hcnkgdW5kZXJsaW5lIGhvdmVyOnRleHQtcHJpbWFyeS85MCI+CiAgICAgICAgICBSZXR1cm4gdG8gSG9tZQogICAgICAgIDwvYT4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9OwoKZXhwb3J0IGRlZmF1bHQgTm90Rm91bmQ7Cg==
