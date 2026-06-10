@@ -1,1 +1,276 @@
-aW1wb3J0IHsgQnVnLCBTaGllbGRDaGVjaywgTWFwUGluLCBDaGVja0NpcmNsZTIsIEFycm93UmlnaHQgfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvYnV0dG9uIjsKaW1wb3J0IHsgQm9va2luZ01vZGFsIH0gZnJvbSAiQC9jb21wb25lbnRzL0Jvb2tpbmdNb2RhbCI7Cgpjb25zdCBJbmRleCA9ICgpID0+IHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImZsZXggbWluLWgtc2NyZWVuIGZsZXgtY29sIGZvbnQtc2FucyI+CiAgICAgIHsvKiBIZWFkZXIgKi99CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJzdGlja3kgdG9wLTAgei01MCB3LWZ1bGwgYm9yZGVyLWIgYmctYmFja2dyb3VuZC85NSBiYWNrZHJvcC1ibHVyIHN1cHBvcnRzLVtiYWNrZHJvcC1maWx0ZXJdOmJnLWJhY2tncm91bmQvNjAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXIgZmxleCBoLTIwIGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgPGltZyAKICAgICAgICAgICAgICBzcmM9Imh0dHBzOi8vdmliZS5maWxlc2FmZS5zcGFjZS8xNzgxMDMxMDkzMTA2MjY1MzU5L2F0dGFjaG1lbnRzLzU0NjFkMWFkLWRhMWMtNDZkZS05ZjM1LWM2ODM4MzY5M2Q4NS5wbmciIAogICAgICAgICAgICAgIGFsdD0iQ29vbHBpbSBMb2dvIiAKICAgICAgICAgICAgICBjbGFzc05hbWU9ImgtMTIiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxuYXYgY2xhc3NOYW1lPSJoaWRkZW4gbWQ6ZmxleCBnYXAtNiI+CiAgICAgICAgICAgIDxhIGhyZWY9IiNzZXJ2aWNvcyIgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtbWVkaXVtIGhvdmVyOnRleHQtcHJpbWFyeSB0cmFuc2l0aW9uLWNvbG9ycyI+U2VydmnDp29zPC9hPgogICAgICAgICAgICA8YSBocmVmPSIjc29icmUiIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSBob3Zlcjp0ZXh0LXByaW1hcnkgdHJhbnNpdGlvbi1jb2xvcnMiPlNvYnJlIE7Ds3M8L2E+CiAgICAgICAgICAgIDxhIGhyZWY9IiNjb250YXRvIiBjbGFzc05hbWU9InRleHQtc20gZm9udC1tZWRpdW0gaG92ZXI6dGV4dC1wcmltYXJ5IHRyYW5zaXRpb24tY29sb3JzIj5Db250YXRvPC9hPgogICAgICAgICAgPC9uYXY+CiAgICAgICAgICA8Qm9va2luZ01vZGFsPgogICAgICAgICAgICA8QnV0dG9uIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IGZvbnQtc2VtaWJvbGQgdGV4dC1sZyByb3VuZGVkLWZ1bGwgcHgtNiBzaGFkb3ctbWQgaG92ZXI6c2hhZG93LWxnIHRyYW5zaXRpb24tYWxsIj4KICAgICAgICAgICAgICBBZ2VuZGFyIFZpc2l0YQogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvQm9va2luZ01vZGFsPgogICAgICAgIDwvZGl2PgogICAgICA8L2hlYWRlcj4KCiAgICAgIDxtYWluIGNsYXNzTmFtZT0iZmxleC0xIj4KICAgICAgICB7LyogSGVybyBTZWN0aW9uICovfQogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icmVsYXRpdmUgb3ZlcmZsb3ctaGlkZGVuIGJnLWJhY2tncm91bmQgcHktMTYgbWQ6cHktMjQgbGc6cHktMzIiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBweC00IG1kOnB4LTYiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtMTIgbGc6Z3JpZC1jb2xzLTIgbGc6Z2FwLTggaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBqdXN0aWZ5LWNlbnRlciBzcGFjZS15LTgiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJpbmxpbmUtZmxleCBpdGVtcy1jZW50ZXIgcm91bmRlZC1mdWxsIGJvcmRlciBweC00IHB5LTEuNSB0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgYmctcHJpbWFyeS8xMCB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCBib3JkZXItcHJpbWFyeS8yMCI+CiAgICAgICAgICAgICAgICAgICAgPE1hcFBpbiBjbGFzc05hbWU9Im1yLTIgaC00IHctNCIgLz4KICAgICAgICAgICAgICAgICAgICBBdGVuZGVtb3MgZW0gU8OjbyBQYXVsbwogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtNXhsIHNtOnRleHQtNnhsIG1kOnRleHQtN3hsIGZvbnQtYm9sZCB0cmFja2luZy10aWdodCB0ZXh0LWZvcmVncm91bmQgbGVhZGluZy1bMS4xXSI+CiAgICAgICAgICAgICAgICAgICAgTyBqZWl0byBtYWlzIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1wcmltYXJ5Ij5sZWdhbDwvc3Bhbj4gZGUgY29udHJvbGFyIGN1cGlucy4KICAgICAgICAgICAgICAgICAgPC9oMT4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtYXgtdy1bNjAwcHhdIHRleHQtbGcgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1kOnRleHQteGwgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICAgICAgICBTb21vcyBlc3BlY2lhbGlzdGFzIGVtIGRlc2N1cGluaXphw6fDo28uIFByb3RlZ2Vtb3Mgc2V1IHBhdHJpbcO0bmlvIGNvbnRyYSBjdXBpbnMgZGUgc29sbyBlIGRlIG1hZGVpcmEgY29tIHNlZ3VyYW7Dp2EgZSBlZmljacOqbmNpYS4KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBzbTpmbGV4LXJvdyBnYXAtNCI+CiAgICAgICAgICAgICAgICAgIDxCb29raW5nTW9kYWw+CiAgICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJsZyIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCBoLTE0IHB4LTggcm91bmRlZC1mdWxsIHNoYWRvdy1sZyBob3ZlcjpzaGFkb3cteGwgaG92ZXI6LXRyYW5zbGF0ZS15LTEgdHJhbnNpdGlvbi1hbGwgZ3JvdXAiPgogICAgICAgICAgICAgICAgICAgICAgQWdlbmRhciB1bWEgVmlzaXRhCiAgICAgICAgICAgICAgICAgICAgICA8QXJyb3dSaWdodCBjbGFzc05hbWU9Im1sLTIgaC01IHctNSBncm91cC1ob3Zlcjp0cmFuc2xhdGUteC0xIHRyYW5zaXRpb24tdHJhbnNmb3JtIiAvPgogICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICA8L0Jvb2tpbmdNb2RhbD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC00IHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0xIj4KICAgICAgICAgICAgICAgICAgICA8Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC00IHctNCB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgICAgICAgICAgPHNwYW4+T3LDp2FtZW50byBHcmF0dWl0bzwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9ImgtNCB3LTQgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuPkdhcmFudGlhIGRlIFNlcnZpw6dvPC9zcGFuPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJteC1hdXRvIGZsZXggdy1mdWxsIG1heC13LVs1MDBweF0gbGc6bWF4LXctbm9uZSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBhc3BlY3Qtc3F1YXJlIG1kOmFzcGVjdC1bNC8zXSBsZzphc3BlY3Qtc3F1YXJlIGJnLXdoaXRlIj4KICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgIHNyYz0iaHR0cHM6Ly92aWJlLmZpbGVzYWZlLnNwYWNlLzE3ODEwMzEwOTMxMDYyNjUzNTkvYXR0YWNobWVudHMvNTViOTc1NGMtMWU5OC00NTgwLTkyNjEtNzEzODY4ZGUyZTUwLmpwZyIKICAgICAgICAgICAgICAgICAgICBhbHQ9IlBlc3NvYSBpbmNvbW9kYWRhIGNvbSBjdXBpbnMiCiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJvYmplY3QtY29udGFpbiB3LWZ1bGwgaC1mdWxsIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICB7LyogU2VydmljZXMgU2VjdGlvbiAqL30KICAgICAgICA8c2VjdGlvbiBpZD0ic2Vydmljb3MiIGNsYXNzTmFtZT0icHktMjAgYmctbXV0ZWQvNTAiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBweC00IG1kOnB4LTYiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWF4LXctMnhsIG14LWF1dG8gbWItMTYgc3BhY2UteS00Ij4KICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC00eGwgbWQ6dGV4dC01eGwgZm9udC1ib2xkIj5Ob3NzYXMgRXNwZWNpYWxpZGFkZXM8L2gyPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1sZyB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgSWRlbnRpZmljYW1vcyBlIGVsaW1pbmFtb3MgYSByYWl6IGRvIHByb2JsZW1hLiBDYWRhIHRpcG8gZGUgY3VwaW0gZXhpZ2UgdW0gdHJhdGFtZW50byBlc3BlY8OtZmljby4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTggbWF4LXctNXhsIG14LWF1dG8iPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1iYWNrZ3JvdW5kIHJvdW5kZWQtM3hsIG92ZXJmbG93LWhpZGRlbiBzaGFkb3ctc20gYm9yZGVyIGhvdmVyOnNoYWRvdy1tZCB0cmFuc2l0aW9uLXNoYWRvdyBmbGV4IGZsZXgtY29sIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctbXV0ZWQvMzAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC04IG1kOnAtMTIiPgogICAgICAgICAgICAgICAgICA8aW1nIAogICAgICAgICAgICAgICAgICAgIHNyYz0iaHR0cHM6Ly92aWJlLmZpbGVzYWZlLnNwYWNlLzE3ODEwMzEwOTMxMDYyNjUzNTkvYXR0YWNobWVudHMvNDYwZjcwMzYtMTBkYy00OGY2LTg5NmUtMmI3NzMxYTNlYWNiLnBuZyIgCiAgICAgICAgICAgICAgICAgICAgYWx0PSJDdXBpbSBkZSBNYWRlaXJhIiAKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNDggaC00OCBtZDp3LTU2IG1kOmgtNTYgb2JqZWN0LWNvbnRhaW4gZHJvcC1zaGFkb3ctbWQgaG92ZXI6c2NhbGUtMTA1IHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTMwMCIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtOCBmbGV4LTEiPgogICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgZm9udC1ib2xkIG1iLTQiPkN1cGltIGRlIE1hZGVpcmEgU2VjYTwvaDM+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG1iLTYgbGVhZGluZy1yZWxheGVkIj4KICAgICAgICAgICAgICAgICAgICBBdGFjYW0gbcOzdmVpcywgcG9ydGFzLCBqYW5lbGFzIGUgZXN0cnV0dXJhcyBkZSB0ZWxoYWRvLiBPIHRyYXRhbWVudG8gw6kgZmVpdG8gYXRyYXbDqXMgZGUgaW5qZcOnw6NvIGUgcHVsdmVyaXphw6fDo28gZGUgY2FsZGEgY3VwaW5pY2lkYSBkaXJldGFtZW50ZSBuYXMgZ2FsZXJpYXMgY3JpYWRhcyBwZWxvcyBpbnNldG9zLCBwcmVzZXJ2YW5kbyBhIHBlw6dhLgogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9ImgtNSB3LTUgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4+SW5qZcOnw6NvIGxvY2FsaXphZGE8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICA8Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC01IHctNSB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5QdWx2ZXJpemHDp8OjbyBwcm90ZXRvcmE8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICA8Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC01IHctNSB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5QcmVzZXJ2YcOnw6NvIGRvIG3Ds3ZlbDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICA8L3VsPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1iYWNrZ3JvdW5kIHJvdW5kZWQtM3hsIG92ZXJmbG93LWhpZGRlbiBzaGFkb3ctc20gYm9yZGVyIGhvdmVyOnNoYWRvdy1tZCB0cmFuc2l0aW9uLXNoYWRvdyBmbGV4IGZsZXgtY29sIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ3LWZ1bGwgYmctbXV0ZWQvMzAgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC04IG1kOnAtMTIiPgogICAgICAgICAgICAgICAgICA8aW1nIAogICAgICAgICAgICAgICAgICAgIHNyYz0iaHR0cHM6Ly92aWJlLmZpbGVzYWZlLnNwYWNlLzE3ODEwMzEwOTMxMDYyNjUzNTkvYXR0YWNobWVudHMvYzYyYTI3NDUtNjU0NC00M2Y4LWJkMTktMjllOTgwNTg4Zjg5LnBuZyIgCiAgICAgICAgICAgICAgICAgICAgYWx0PSJDdXBpbSBkZSBTb2xvIiAKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNDggaC00OCBtZDp3LTU2IG1kOmgtNTYgb2JqZWN0LWNvbnRhaW4gZHJvcC1zaGFkb3ctbWQgaG92ZXI6c2NhbGUtMTA1IHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTMwMCIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtOCBmbGV4LTEiPgogICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwgZm9udC1ib2xkIG1iLTQiPkN1cGltIGRlIFNvbG8gKFN1YnRlcnLDom5lbyk8L2gzPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbXV0ZWQtZm9yZWdyb3VuZCBtYi02IGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgICAgICAgQWx0YW1lbnRlIGRlc3RydXRpdm9zLCB2w6ptIGRvIHNvbG8gZSBwb2RlbSBjb21wcm9tZXRlciBhIGVzdHJ1dHVyYSBkbyBpbcOzdmVsLiBDcmlhbW9zIHVtYSBiYXJyZWlyYSBxdcOtbWljYSBubyBwZXLDrW1ldHJvIGRhIGVkaWZpY2HDp8OjbywgaW1wZWRpbmRvIGEgaW52YXPDo28gZSBlbGltaW5hbmRvIGEgY29sw7RuaWEuCiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICAgICAgICA8Q2hlY2tDaXJjbGUyIGNsYXNzTmFtZT0iaC01IHctNSB0ZXh0LXByaW1hcnkiIC8+CiAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj5CYXJyZWlyYSBxdcOtbWljYSBwZXJpbWV0cmFsPC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIiPgogICAgICAgICAgICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9ImgtNSB3LTUgdGV4dC1wcmltYXJ5IiAvPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4+VHJhdGFtZW50byBkZSBmdW5kYcOnw7Vlczwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgICAgICAgIDxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPSJoLTUgdy01IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPlByb3Rlw6fDo28gZGUgbG9uZ28gcHJhem88L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgey8qIExvY2FpcyBTZWN0aW9uICovfQogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0icHktMjAgYmctYmFja2dyb3VuZCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIHB4LTQgbWQ6cHgtNiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYXgtdy0yeGwgbXgtYXV0byBtYi0xNiBzcGFjZS15LTQiPgogICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSB0ZXh0LTR4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQiPk8gcXVlIHRyYXRhbW9zPC9oMj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIj4KICAgICAgICAgICAgICAgIFJlYWxpemFtb3MgYSBkZXNjdXBpbml6YcOnw6NvIGVtIGRpdmVyc29zIHRpcG9zIGRlIG3Ds3ZlaXMgZSBlc3RydXR1cmFzIHBhcmEgcHJvdGVnZXIgc2V1IHBhdHJpbcO0bmlvLgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBtZDpncmlkLWNvbHMtMyBsZzpncmlkLWNvbHMtNSBnYXAtNiBtYXgtdy02eGwgbXgtYXV0byI+CiAgICAgICAgICAgICAge1sKICAgICAgICAgICAgICAgIHsgc3JjOiAiaHR0cHM6Ly92aWJlLmZpbGVzYWZlLnNwYWNlLzE3ODEwMzEwOTMxMDYyNjUzNTkvYXR0YWNobWVudHMvOGY5OWE1MjMtOWMxNi00MGNmLThhOWQtY2RjN2MyZjRjNTBlLnBuZyIsIGFsdDogIkFwYXJhZG9yZXMiIH0sCiAgICAgICAgICAgICAgICB7IHNyYzogImh0dHBzOi8vdmliZS5maWxlc2FmZS5zcGFjZS8xNzgxMDMxMDkzMTA2MjY1MzU5L2F0dGFjaG1lbnRzLzc4MTUyNWM5LWNiOGMtNGM2Yy1iMGFmLWZiZmVjMWJhYjkxYy5wbmciLCBhbHQ6ICJBcm3DoXJpb3MiIH0sCiAgICAgICAgICAgICAgICB7IHNyYzogImh0dHBzOi8vdmliZS5maWxlc2FmZS5zcGFjZS8xNzgxMDMxMDkzMTA2MjY1MzU5L2F0dGFjaG1lbnRzLzM5OWJkMjQ2LTQ5YWEtNDI4YS05OWFlLTEyMDNlZmFmODRmNS5wbmciLCBhbHQ6ICJBc3NlbnRvcyIgfSwKICAgICAgICAgICAgICAgIHsgc3JjOiAiaHR0cHM6Ly92aWJlLmZpbGVzYWZlLnNwYWNlLzE3ODEwMzEwOTMxMDYyNjUzNTkvYXR0YWNobWVudHMvZDM0NzNmOWUtY2Y3MC00N2RhLWIyNDUtZjFlMzg3ZTlmODFlLnBuZyIsIGFsdDogIkNhbWFzIiB9LAogICAgICAgICAgICAgICAgeyBzcmM6ICJodHRwczovL3ZpYmUuZmlsZXNhZmUuc3BhY2UvMTc4MTAzMTA5MzEwNjI2NTM1OS9hdHRhY2htZW50cy9iYzg4OGU1OS0zYThmLTQzM2QtOTM4MS0yZDI1YjFiNTZlYzkucG5nIiwgYWx0OiAiRXN0YW50ZXMiIH0sCiAgICAgICAgICAgICAgXS5tYXAoKGl0ZW0sIGluZGV4KSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2IGtleT17aW5kZXh9IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcC02IGJnLW11dGVkLzMwIHJvdW5kZWQtM3hsIGJvcmRlciBob3ZlcjpzaGFkb3ctbWQgdHJhbnNpdGlvbi1hbGwgaG92ZXI6LXRyYW5zbGF0ZS15LTEiPgogICAgICAgICAgICAgICAgICA8aW1nIHNyYz17aXRlbS5zcmN9IGFsdD17aXRlbS5hbHR9IGNsYXNzTmFtZT0idy1mdWxsIG1heC13LVsxMjBweF0gaC1hdXRvIG9iamVjdC1jb250YWluIGRyb3Atc2hhZG93LXNtIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9zZWN0aW9uPgoKICAgICAgICB7LyogV2FycmFudHkgU2VjdGlvbiAqL30KICAgICAgICA8c2VjdGlvbiBpZD0ic29icmUiIGNsYXNzTmFtZT0icHktMTYgYmctcHJpbWFyeSB0ZXh0LXByaW1hcnktZm9yZWdyb3VuZCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIHB4LTQgbWQ6cHgtNiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGZsZXgtY29sIG1kOmZsZXgtcm93IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtOCBtZDpnYXAtMTIiPgogICAgICAgICAgICAgIDxpbWcgCiAgICAgICAgICAgICAgICBzcmM9Imh0dHBzOi8vdmliZS5maWxlc2FmZS5zcGFjZS8xNzgxMDMxMDkzMTA2MjY1MzU5L2F0dGFjaG1lbnRzLzJiYmY3ZTYyLWUwZGUtNGZhZC05ZTcwLTA5NzQ1ZGU2ZjEwNi5wbmciIAogICAgICAgICAgICAgICAgYWx0PSJTZWxvIGRlIEdhcmFudGlhIENvb2xwaW0iIAogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTQwIGgtNDAgbWQ6dy00OCBtZDpoLTQ4IGRyb3Atc2hhZG93LXhsIGhvdmVyOnNjYWxlLTEwNSB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi0zMDAiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWQ6dGV4dC1sZWZ0IG1heC13LXhsIHNwYWNlLXktNCI+CiAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0zeGwgbWQ6dGV4dC00eGwgZm9udC1ib2xkIj5HYXJhbnRpYSBkZSBhdMOpIDUgYW5vczwvaDI+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgb3BhY2l0eS05MCBsZWFkaW5nLXJlbGF4ZWQiPgogICAgICAgICAgICAgICAgICBDb25maWFtb3MgdGFudG8gZW0gbm9zc28gdHJhYmFsaG8gcXVlIG9mZXJlY2Vtb3MgdW1hIGdhcmFudGlhIGVzdGVuZGlkYSBwYXJhIG5vc3NvcyBzZXJ2acOnb3MgZGUgZGVzY3VwaW5pemHDp8Ojby4gU2V1IGltw7N2ZWwgcHJvdGVnaWRvIGUgdm9jw6ogdHJhbnF1aWxvIHBvciBtdWl0byBtYWlzIHRlbXBvIQogICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KCiAgICAgICAgey8qIENUQSBTZWN0aW9uICovfQogICAgICAgIDxzZWN0aW9uIGlkPSJjb250YXRvIiBjbGFzc05hbWU9InB5LTI0IHJlbGF0aXZlIG92ZXJmbG93LWhpZGRlbiBiZy1tdXRlZC81MCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyIHJlbGF0aXZlIHotMTAgcHgtNCBtZDpweC02Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTEyIGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktOCB0ZXh0LWNlbnRlciBtZDp0ZXh0LWxlZnQiPgogICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IHRleHQtNHhsIG1kOnRleHQtNXhsIGZvbnQtYm9sZCI+CiAgICAgICAgICAgICAgICAgIFByb2JsZW1hcyBjb20gY3VwaW5zIGVtIFPDo28gUGF1bG8/CiAgICAgICAgICAgICAgICA8L2gyPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LW11dGVkLWZvcmVncm91bmQiPgogICAgICAgICAgICAgICAgICAgIE7Do28gZGVpeGUgcGFyYSBkZXBvaXMuIFByb3RlamEgc2V1IHBhdHJpbcO0bmlvIGNvbSBhIGVxdWlwZSBtYWlzIGxlZ2FsIGUgZWZpY2llbnRlIGRhIGNpZGFkZS4KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMyBiZy1iYWNrZ3JvdW5kIHAtNiByb3VuZGVkLTJ4bCBib3JkZXIgc2hhZG93LXNtIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbWQ6anVzdGlmeS1zdGFydCBnYXAtMyB0ZXh0LWxnIj4KICAgICAgICAgICAgICAgICAgICAgIDxDaGVja0NpcmNsZTIgY2xhc3NOYW1lPSJoLTYgdy02IHRleHQtcHJpbWFyeSBzaHJpbmstMCIgLz4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPlZpc2l0YSB0w6ljbmljYSA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIj4xMDAlIGdyYXR1aXRhPC9zdHJvbmc+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBtZDpqdXN0aWZ5LXN0YXJ0IGdhcC0zIHRleHQtbGciPgogICAgICAgICAgICAgICAgICAgICAgPENoZWNrQ2lyY2xlMiBjbGFzc05hbWU9ImgtNiB3LTYgdGV4dC1wcmltYXJ5IHNocmluay0wIiAvPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4+Q2hlZ2Ftb3MgYXTDqSB2b2PDqiBlbSA8c3Ryb25nIGNsYXNzTmFtZT0idGV4dC1mb3JlZ3JvdW5kIj5hdMOpIDI0IGhvcmFzPC9zdHJvbmc+PC9zcGFuPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPEJvb2tpbmdNb2RhbD4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiBzaXplPSJsZyIgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC14bCBoLTE2IHB4LTEwIHJvdW5kZWQtZnVsbCBzaGFkb3cteGwgaG92ZXI6c2hhZG93LTJ4bCBob3ZlcjotdHJhbnNsYXRlLXktMSB0cmFuc2l0aW9uLWFsbCB3LWZ1bGwgc206dy1hdXRvIj4KICAgICAgICAgICAgICAgICAgICBBZ2VuZGFyIEF2YWxpYcOnw6NvIEFnb3JhCiAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgPC9Cb29raW5nTW9kYWw+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im14LWF1dG8gZmxleCB3LWZ1bGwgbWF4LXctWzUwMHB4XSBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgcmVsYXRpdmUiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctcHJpbWFyeS8yMCBibHVyLTN4bCByb3VuZGVkLWZ1bGwiPjwvZGl2PgogICAgICAgICAgICAgICAgPGltZyAKICAgICAgICAgICAgICAgICAgc3JjPSJodHRwczovL3ZpYmUuZmlsZXNhZmUuc3BhY2UvMTc4MTAzMTA5MzEwNjI2NTM1OS9hdHRhY2htZW50cy9lM2MxYTliMy0xMjVhLTQ5NGMtYWVjOC1iYjZkZDA3MjI0ZjcuanBnIiAKICAgICAgICAgICAgICAgICAgYWx0PSJNb3RvIGRlIGF0ZW5kaW1lbnRvIENvb2xwaW0iIAogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InJlbGF0aXZlIHctZnVsbCBoLWF1dG8gb2JqZWN0LWNvbnRhaW4gZHJvcC1zaGFkb3ctMnhsIHJvdW5kZWQtM3hsIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3NlY3Rpb24+CiAgICAgIDwvbWFpbj4KCiAgICAgIHsvKiBGb290ZXIgKi99CiAgICAgIDxmb290ZXIgY2xhc3NOYW1lPSJiZy1mb3JlZ3JvdW5kIHRleHQtYmFja2dyb3VuZCBweS0xMiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lciBweC00IG1kOnB4LTYiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTggbWQ6Z3JpZC1jb2xzLTMgaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8aW1nIAogICAgICAgICAgICAgICAgc3JjPSJodHRwczovL3ZpYmUuZmlsZXNhZmUuc3BhY2UvMTc4MTAzMTA5MzEwNjI2NTM1OS9hdHRhY2htZW50cy81NDYxZDFhZC1kYTFjLTQ2ZGUtOWYzNS1jNjgzODM2OTNkODUucG5nIiAKICAgICAgICAgICAgICAgIGFsdD0iQ29vbHBpbSBMb2dvIiAKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaC0xMiBiZy13aGl0ZS8xMCByb3VuZGVkLXhsIHAtMiIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtNCB0ZXh0LWJhY2tncm91bmQvNzAiPgogICAgICAgICAgICAgICAgTyBqZWl0byBtYWlzIGxlZ2FsIGRlIGNvbnRyb2xhciBjdXBpbnMuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC1jb2wgZ2FwLTIiPgogICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9ImZvbnQtZGlzcGxheSBmb250LWJvbGQgdGV4dC1sZyBtYi0yIj5Db250YXRvPC9oND4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtYmFja2dyb3VuZC83MCI+U8OjbyBQYXVsbywgU1A8L3A+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJhY2tncm91bmQvNzAiPkF0ZW5kaW1lbnRvIEVzcGVjaWFsaXphZG88L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBnYXAtMiI+CiAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT0iZm9udC1kaXNwbGF5IGZvbnQtYm9sZCB0ZXh0LWxnIG1iLTIiPlNlcnZpw6dvczwvaDQ+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWJhY2tncm91bmQvNzAiPkRlc2N1cGluaXphw6fDo28gZGUgTWFkZWlyYTwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtYmFja2dyb3VuZC83MCI+Q29udHJvbGUgZGUgQ3VwaW0gZGUgU29sbzwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xMiBwdC04IGJvcmRlci10IGJvcmRlci1iYWNrZ3JvdW5kLzIwIHRleHQtY2VudGVyIHRleHQtYmFja2dyb3VuZC81MCB0ZXh0LXNtIj4KICAgICAgICAgICAgPHA+JmNvcHk7IHtuZXcgRGF0ZSgpLmdldEZ1bGxZZWFyKCl9IENvb2xwaW0uIFRvZG9zIG9zIGRpcmVpdG9zIHJlc2VydmFkb3MuPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZm9vdGVyPgogICAgPC9kaXY+CiAgKTsKfTsKCmV4cG9ydCBkZWZhdWx0IEluZGV4Owo=
+import { Bug, ShieldCheck, MapPin, CheckCircle2, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { BookingModal } from "@/components/BookingModal";
+
+const Index = () => {
+  return (
+    <div className="flex min-h-screen flex-col font-sans">
+      {/* Header */}
+      <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container flex h-20 items-center justify-between">
+          <div className="flex items-center gap-2">
+            <img 
+              src="https://vibe.filesafe.space/1781031093106265359/attachments/5461d1ad-da1c-46de-9f35-c68383693d85.png" 
+              alt="Coolpim Logo" 
+              className="h-12"
+            />
+          </div>
+          <nav className="hidden md:flex gap-6">
+            <a href="#servicos" className="text-sm font-medium hover:text-primary transition-colors">Serviços</a>
+            <a href="#sobre" className="text-sm font-medium hover:text-primary transition-colors">Sobre Nós</a>
+            <a href="#contato" className="text-sm font-medium hover:text-primary transition-colors">Contato</a>
+          </nav>
+          <BookingModal>
+            <Button className="font-display font-semibold text-lg rounded-full px-6 shadow-md hover:shadow-lg transition-all">
+              Agendar Visita
+            </Button>
+          </BookingModal>
+        </div>
+      </header>
+
+      <main className="flex-1">
+        {/* Hero Section */}
+        <section className="relative overflow-hidden bg-background py-16 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+            <div className="grid gap-12 lg:grid-cols-2 lg:gap-8 items-center">
+              <div className="flex flex-col justify-center space-y-8">
+                <div className="space-y-4">
+                  <div className="inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-semibold bg-primary/10 text-primary-foreground border-primary/20">
+                    <MapPin className="mr-2 h-4 w-4" />
+                    Atendemos em São Paulo
+                  </div>
+                  <h1 className="font-display text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-foreground leading-[1.1]">
+                    O jeito mais <span className="text-primary">legal</span> de controlar cupins.
+                  </h1>
+                  <p className="max-w-[600px] text-lg text-muted-foreground md:text-xl leading-relaxed">
+                    Somos especialistas em descupinização. Protegemos seu patrimônio contra cupins de solo e de madeira com segurança e eficiência.
+                  </p>
+                </div>
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <BookingModal>
+                    <Button size="lg" className="font-display text-xl h-14 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all group">
+                      Agendar uma Visita
+                      <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </BookingModal>
+                </div>
+                <div className="flex items-center gap-4 text-sm font-medium text-muted-foreground">
+                  <div className="flex items-center gap-1">
+                    <CheckCircle2 className="h-4 w-4 text-primary" />
+                    <span>Orçamento Gratuito</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <CheckCircle2 className="h-4 w-4 text-primary" />
+                    <span>Garantia de Serviço</span>
+                  </div>
+                </div>
+              </div>
+              <div className="mx-auto flex w-full max-w-[500px] lg:max-w-none items-center justify-center">
+                <div className="relative w-full aspect-square md:aspect-[4/3] lg:aspect-square bg-white">
+                  <img
+                    src="https://vibe.filesafe.space/1781031093106265359/attachments/55b9754c-1e98-4580-9261-713868de2e50.jpg"
+                    alt="Pessoa incomodada com cupins"
+                    className="object-contain w-full h-full"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Services Section */}
+        <section id="servicos" className="py-20 bg-muted/50">
+          <div className="container px-4 md:px-6">
+            <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">Nossas Especialidades</h2>
+              <p className="text-lg text-muted-foreground">
+                Identificamos e eliminamos a raiz do problema. Cada tipo de cupim exige um tratamento específico.
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+              <div className="bg-background rounded-3xl overflow-hidden shadow-sm border hover:shadow-md transition-shadow flex flex-col">
+                <div className="w-full bg-muted/30 flex items-center justify-center p-8 md:p-12">
+                  <img 
+                    src="https://vibe.filesafe.space/1781031093106265359/attachments/460f7036-10dc-48f6-896e-2b7731a3eacb.png" 
+                    alt="Cupim de Madeira" 
+                    className="w-48 h-48 md:w-56 md:h-56 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-8 flex-1">
+                  <h3 className="font-display text-2xl font-bold mb-4">Cupim de Madeira Seca</h3>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Atacam móveis, portas, janelas e estruturas de telhado. O tratamento é feito através de injeção e pulverização de calda cupinicida diretamente nas galerias criadas pelos insetos, preservando a peça.
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary" />
+                      <span>Injeção localizada</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary" />
+                      <span>Pulverização protetora</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary" />
+                      <span>Preservação do móvel</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="bg-background rounded-3xl overflow-hidden shadow-sm border hover:shadow-md transition-shadow flex flex-col">
+                <div className="w-full bg-muted/30 flex items-center justify-center p-8 md:p-12">
+                  <img 
+                    src="https://vibe.filesafe.space/1781031093106265359/attachments/c62a2745-6544-43f8-bd19-29e980588f89.png" 
+                    alt="Cupim de Solo" 
+                    className="w-48 h-48 md:w-56 md:h-56 object-contain drop-shadow-md hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-8 flex-1">
+                  <h3 className="font-display text-2xl font-bold mb-4">Cupim de Solo (Subterrâneo)</h3>
+                  <p className="text-muted-foreground mb-6 leading-relaxed">
+                    Altamente destrutivos, vêm do solo e podem comprometer a estrutura do imóvel. Criamos uma barreira química no perímetro da edificação, impedindo a invasão e eliminando a colônia.
+                  </p>
+                  <ul className="space-y-2">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary" />
+                      <span>Barreira química perimetral</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary" />
+                      <span>Tratamento de fundações</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle2 className="h-5 w-5 text-primary" />
+                      <span>Proteção de longo prazo</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Locais Section */}
+        <section className="py-20 bg-background">
+          <div className="container px-4 md:px-6">
+            <div className="text-center max-w-2xl mx-auto mb-16 space-y-4">
+              <h2 className="font-display text-4xl md:text-5xl font-bold">O que tratamos</h2>
+              <p className="text-lg text-muted-foreground">
+                Realizamos a descupinização em diversos tipos de móveis e estruturas para proteger seu patrimônio.
+              </p>
+            </div>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6 max-w-6xl mx-auto">
+              {[
+                { src: "https://vibe.filesafe.space/1781031093106265359/attachments/8f99a523-9c16-40cf-8a9d-cdc7c2f4c50e.png", alt: "Aparadores" },
+                { src: "https://vibe.filesafe.space/1781031093106265359/attachments/781525c9-cb8c-4c6c-b0af-fbfec1bab91c.png", alt: "Armários" },
+                { src: "https://vibe.filesafe.space/1781031093106265359/attachments/399bd246-49aa-428a-99ae-1203efaf84f5.png", alt: "Assentos" },
+                { src: "https://vibe.filesafe.space/1781031093106265359/attachments/d3473f9e-cf70-47da-b245-f1e387e9f81e.png", alt: "Camas" },
+                { src: "https://vibe.filesafe.space/1781031093106265359/attachments/bc888e59-3a8f-433d-9381-2d25b1b56ec9.png", alt: "Estantes" },
+              ].map((item, index) => (
+                <div key={index} className="flex flex-col items-center justify-center p-6 bg-muted/30 rounded-3xl border hover:shadow-md transition-all hover:-translate-y-1">
+                  <img src={item.src} alt={item.alt} className="w-full max-w-[120px] h-auto object-contain drop-shadow-sm" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Warranty Section */}
+        <section id="sobre" className="py-16 bg-primary text-primary-foreground">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+              <img 
+                src="https://vibe.filesafe.space/1781031093106265359/attachments/2bbf7e62-e0de-4fad-9e70-09745de6f106.png" 
+                alt="Selo de Garantia Coolpim" 
+                className="w-40 h-40 md:w-48 md:h-48 drop-shadow-xl hover:scale-105 transition-transform duration-300"
+              />
+              <div className="text-center md:text-left max-w-xl space-y-4">
+                <h2 className="font-display text-3xl md:text-4xl font-bold">Garantia de até 5 anos</h2>
+                <p className="text-lg opacity-90 leading-relaxed">
+                  Confiamos tanto em nosso trabalho que oferecemos uma garantia estendida para nossos serviços de descupinização. Seu imóvel protegido e você tranquilo por muito mais tempo!
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section id="contato" className="py-24 relative overflow-hidden bg-muted/50">
+          <div className="container relative z-10 px-4 md:px-6">
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="space-y-8 text-center md:text-left">
+                <h2 className="font-display text-4xl md:text-5xl font-bold">
+                  Problemas com cupins em São Paulo?
+                </h2>
+                <div className="space-y-6">
+                  <p className="text-xl text-muted-foreground">
+                    Não deixe para depois. Proteja seu patrimônio com a equipe mais legal e eficiente da cidade.
+                  </p>
+                  <div className="flex flex-col gap-3 bg-background p-6 rounded-2xl border shadow-sm">
+                    <div className="flex items-center justify-center md:justify-start gap-3 text-lg">
+                      <CheckCircle2 className="h-6 w-6 text-primary shrink-0" />
+                      <span>Visita técnica <strong className="text-foreground">100% gratuita</strong></span>
+                    </div>
+                    <div className="flex items-center justify-center md:justify-start gap-3 text-lg">
+                      <CheckCircle2 className="h-6 w-6 text-primary shrink-0" />
+                      <span>Chegamos até você em <strong className="text-foreground">até 24 horas</strong></span>
+                    </div>
+                  </div>
+                </div>
+                <BookingModal>
+                  <Button size="lg" className="font-display text-xl h-16 px-10 rounded-full shadow-xl hover:shadow-2xl hover:-translate-y-1 transition-all w-full sm:w-auto">
+                    Agendar Avaliação Agora
+                  </Button>
+                </BookingModal>
+              </div>
+              <div className="mx-auto flex w-full max-w-[500px] items-center justify-center relative">
+                <div className="absolute inset-0 bg-primary/20 blur-3xl rounded-full"></div>
+                <img 
+                  src="https://vibe.filesafe.space/1781031093106265359/attachments/e3c1a9b3-125a-494c-aec8-bb6dd07224f7.jpg" 
+                  alt="Moto de atendimento Coolpim" 
+                  className="relative w-full h-auto object-contain drop-shadow-2xl rounded-3xl"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      {/* Footer */}
+      <footer className="bg-foreground text-background py-12">
+        <div className="container px-4 md:px-6">
+          <div className="grid gap-8 md:grid-cols-3 items-center">
+            <div>
+              <img 
+                src="https://vibe.filesafe.space/1781031093106265359/attachments/5461d1ad-da1c-46de-9f35-c68383693d85.png" 
+                alt="Coolpim Logo" 
+                className="h-12 bg-white/10 rounded-xl p-2"
+              />
+              <p className="mt-4 text-background/70">
+                O jeito mais legal de controlar cupins.
+              </p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h4 className="font-display font-bold text-lg mb-2">Contato</h4>
+              <p className="text-background/70">São Paulo, SP</p>
+              <p className="text-background/70">Atendimento Especializado</p>
+            </div>
+            <div className="flex flex-col gap-2">
+              <h4 className="font-display font-bold text-lg mb-2">Serviços</h4>
+              <p className="text-background/70">Descupinização de Madeira</p>
+              <p className="text-background/70">Controle de Cupim de Solo</p>
+            </div>
+          </div>
+          <div className="mt-12 pt-8 border-t border-background/20 text-center text-background/50 text-sm">
+            <p>&copy; {new Date().getFullYear()} Coolpim. Todos os direitos reservados.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+};
+
+export default Index;
