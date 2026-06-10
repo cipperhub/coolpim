@@ -1,1 +1,109 @@
-QHRhaWx3aW5kIGJhc2U7CkB0YWlsd2luZCBjb21wb25lbnRzOwpAdGFpbHdpbmQgdXRpbGl0aWVzOwoKLyogRGVmaW5pdGlvbiBvZiB0aGUgZGVzaWduIHN5c3RlbS4gQWxsIGNvbG9ycywgZ3JhZGllbnRzLCBmb250cywgZXRjIHNob3VsZCBiZSBkZWZpbmVkIGhlcmUuIApBbGwgY29sb3JzIE1VU1QgYmUgSFNMLgoqLwoKQGxheWVyIGJhc2UgewogIDpyb290IHsKICAgIC0tYmFja2dyb3VuZDogMCAwJSAxMDAlOwogICAgLS1mb3JlZ3JvdW5kOiAwIDAlIDEzJTsKCiAgICAtLWNhcmQ6IDAgMCUgMTAwJTsKICAgIC0tY2FyZC1mb3JlZ3JvdW5kOiAwIDAlIDEzJTsKCiAgICAtLXBvcG92ZXI6IDAgMCUgMTAwJTsKICAgIC0tcG9wb3Zlci1mb3JlZ3JvdW5kOiAwIDAlIDEzJTsKCiAgICAtLXByaW1hcnk6IDQ0IDk4JSA1MSU7CiAgICAtLXByaW1hcnktZm9yZWdyb3VuZDogMCAwJSAxMyU7CgogICAgLS1zZWNvbmRhcnk6IDAgMCUgOTYlOwogICAgLS1zZWNvbmRhcnktZm9yZWdyb3VuZDogMCAwJSAxMyU7CgogICAgLS1tdXRlZDogMCAwJSA5NiU7CiAgICAtLW11dGVkLWZvcmVncm91bmQ6IDAgMCUgNDUlOwoKICAgIC0tYWNjZW50OiA0NCA5OCUgNTElOwogICAgLS1hY2NlbnQtZm9yZWdyb3VuZDogMCAwJSAxMyU7CgogICAgLS1kZXN0cnVjdGl2ZTogMCA4NC4yJSA2MC4yJTsKICAgIC0tZGVzdHJ1Y3RpdmUtZm9yZWdyb3VuZDogMCAwJSAxMDAlOwoKICAgIC0tYm9yZGVyOiAwIDAlIDkwJTsKICAgIC0taW5wdXQ6IDAgMCUgOTAlOwogICAgLS1yaW5nOiA0NCA5OCUgNTElOwoKICAgIC0tcmFkaXVzOiAxcmVtOwoKICAgIC0tc2lkZWJhci1iYWNrZ3JvdW5kOiAwIDAlIDk4JTsKCiAgICAtLXNpZGViYXItZm9yZWdyb3VuZDogMjQwIDUuMyUgMjYuMSU7CgogICAgLS1zaWRlYmFyLXByaW1hcnk6IDI0MCA1LjklIDEwJTsKCiAgICAtLXNpZGViYXItcHJpbWFyeS1mb3JlZ3JvdW5kOiAwIDAlIDk4JTsKCiAgICAtLXNpZGViYXItYWNjZW50OiAyNDAgNC44JSA5NS45JTsKCiAgICAtLXNpZGViYXItYWNjZW50LWZvcmVncm91bmQ6IDI0MCA1LjklIDEwJTsKCiAgICAtLXNpZGViYXItYm9yZGVyOiAyMjAgMTMlIDkxJTsKCiAgICAtLXNpZGViYXItcmluZzogMjE3LjIgOTEuMiUgNTkuOCU7CiAgfQoKICAuZGFyayB7CiAgICAtLWJhY2tncm91bmQ6IDAgMCUgMTMlOwogICAgLS1mb3JlZ3JvdW5kOiAwIDAlIDk4JTsKCiAgICAtLWNhcmQ6IDAgMCUgMTMlOwogICAgLS1jYXJkLWZvcmVncm91bmQ6IDAgMCUgOTglOwoKICAgIC0tcG9wb3ZlcjogMCAwJSAxMyU7CiAgICAtLXBvcG92ZXItZm9yZWdyb3VuZDogMCAwJSA5OCU7CgogICAgLS1wcmltYXJ5OiA0NCA5OCUgNTElOwogICAgLS1wcmltYXJ5LWZvcmVncm91bmQ6IDAgMCUgMTMlOwoKICAgIC0tc2Vjb25kYXJ5OiAwIDAlIDIwJTsKICAgIC0tc2Vjb25kYXJ5LWZvcmVncm91bmQ6IDAgMCUgOTglOwoKICAgIC0tbXV0ZWQ6IDAgMCUgMjAlOwogICAgLS1tdXRlZC1mb3JlZ3JvdW5kOiAwIDAlIDY1JTsKCiAgICAtLWFjY2VudDogNDQgOTglIDUxJTsKICAgIC0tYWNjZW50LWZvcmVncm91bmQ6IDAgMCUgMTMlOwoKICAgIC0tZGVzdHJ1Y3RpdmU6IDAgNjIuOCUgMzAuNiU7CiAgICAtLWRlc3RydWN0aXZlLWZvcmVncm91bmQ6IDAgMCUgMTAwJTsKCiAgICAtLWJvcmRlcjogMCAwJSAyMCU7CiAgICAtLWlucHV0OiAwIDAlIDIwJTsKICAgIC0tcmluZzogNDQgOTglIDUxJTsKICAgIC0tc2lkZWJhci1iYWNrZ3JvdW5kOiAyNDAgNS45JSAxMCU7CiAgICAtLXNpZGViYXItZm9yZWdyb3VuZDogMjQwIDQuOCUgOTUuOSU7CiAgICAtLXNpZGViYXItcHJpbWFyeTogMjI0LjMgNzYuMyUgNDglOwogICAgLS1zaWRlYmFyLXByaW1hcnktZm9yZWdyb3VuZDogMCAwJSAxMDAlOwogICAgLS1zaWRlYmFyLWFjY2VudDogMjQwIDMuNyUgMTUuOSU7CiAgICAtLXNpZGViYXItYWNjZW50LWZvcmVncm91bmQ6IDI0MCA0LjglIDk1LjklOwogICAgLS1zaWRlYmFyLWJvcmRlcjogMjQwIDMuNyUgMTUuOSU7CiAgICAtLXNpZGViYXItcmluZzogMjE3LjIgOTEuMiUgNTkuOCU7CiAgfQp9CgpAbGF5ZXIgYmFzZSB7CiAgKiB7CiAgICBAYXBwbHkgYm9yZGVyLWJvcmRlcjsKICB9CgogIGh0bWwgewogICAgc2Nyb2xsLWJlaGF2aW9yOiBzbW9vdGg7CiAgfQoKICBib2R5IHsKICAgIEBhcHBseSBiZy1iYWNrZ3JvdW5kIHRleHQtZm9yZWdyb3VuZDsKICB9Cn0=
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 13%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+
+    --primary: 44 98% 51%;
+    --primary-foreground: 0 0% 13%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 0 0% 13%;
+
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+
+    --accent: 44 98% 51%;
+    --accent-foreground: 0 0% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 44 98% 51%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 0 0% 13%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 13%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 13%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 44 98% 51%;
+    --primary-foreground: 0 0% 13%;
+
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 44 98% 51%;
+    --accent-foreground: 0 0% 13%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 44 98% 51%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
