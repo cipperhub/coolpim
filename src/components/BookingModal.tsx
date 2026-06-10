@@ -1,1 +1,154 @@
-aW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IERpYWxvZywgRGlhbG9nQ29udGVudCwgRGlhbG9nSGVhZGVyLCBEaWFsb2dUaXRsZSwgRGlhbG9nRGVzY3JpcHRpb24sIERpYWxvZ1RyaWdnZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvZGlhbG9nIjsKaW1wb3J0IHsgQnV0dG9uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2J1dHRvbiI7CmltcG9ydCB7IENhbGVuZGFyIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL2NhbGVuZGFyIjsKaW1wb3J0IHsgSW5wdXQgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvaW5wdXQiOwppbXBvcnQgeyBMYWJlbCB9IGZyb20gIkAvY29tcG9uZW50cy91aS9sYWJlbCI7CmltcG9ydCB7IENsb2NrLCBDYWxlbmRhciBhcyBDYWxlbmRhckljb24gfSBmcm9tICJsdWNpZGUtcmVhY3QiOwppbXBvcnQgeyBmb3JtYXQgfSBmcm9tICJkYXRlLWZucyI7CmltcG9ydCB7IHB0QlIgfSBmcm9tICJkYXRlLWZucy9sb2NhbGUiOwoKY29uc3QgdGltZVNsb3RzID0gWwogICIwODowMCIsICIwOTowMCIsICIxMDowMCIsICIxMTowMCIsICIxMzowMCIsICIxNDowMCIsICIxNTowMCIsICIxNjowMCIsICIxNzowMCIKXTsKCmV4cG9ydCBmdW5jdGlvbiBCb29raW5nTW9kYWwoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIGNvbnN0IFtkYXRlLCBzZXREYXRlXSA9IHVzZVN0YXRlPERhdGUgfCB1bmRlZmluZWQ+KHVuZGVmaW5lZCk7CiAgY29uc3QgW3RpbWUsIHNldFRpbWVdID0gdXNlU3RhdGU8c3RyaW5nPigiIik7CiAgY29uc3QgW25hbWUsIHNldE5hbWVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtwaG9uZSwgc2V0UGhvbmVdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtzdGVwLCBzZXRTdGVwXSA9IHVzZVN0YXRlKDEpOwogIGNvbnN0IFtvcGVuLCBzZXRPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgaGFuZGxlTmV4dCA9ICgpID0+IHsKICAgIGlmIChkYXRlICYmIHRpbWUpIHsKICAgICAgc2V0U3RlcCgyKTsKICAgIH0KICB9OwoKICBjb25zdCBoYW5kbGVTdWJtaXQgPSAoZTogUmVhY3QuRm9ybUV2ZW50KSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAvLyBJbnRlZ3JhdGlvbiBsb2dpYyB3aWxsIGdvIGhlcmUKICAgIGNvbnNvbGUubG9nKHsgZGF0ZSwgdGltZSwgbmFtZSwgcGhvbmUgfSk7CiAgfTsKCiAgY29uc3QgaGFuZGxlT3BlbkNoYW5nZSA9IChuZXdPcGVuOiBib29sZWFuKSA9PiB7CiAgICBzZXRPcGVuKG5ld09wZW4pOwogICAgaWYgKCFuZXdPcGVuKSB7CiAgICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICAgIHNldFN0ZXAoMSk7CiAgICAgICAgc2V0RGF0ZSh1bmRlZmluZWQpOwogICAgICAgIHNldFRpbWUoIiIpOwogICAgICAgIHNldE5hbWUoIiIpOwogICAgICAgIHNldFBob25lKCIiKTsKICAgICAgfSwgMzAwKTsKICAgIH0KICB9OwoKICByZXR1cm4gKAogICAgPERpYWxvZyBvcGVuPXtvcGVufSBvbk9wZW5DaGFuZ2U9e2hhbmRsZU9wZW5DaGFuZ2V9PgogICAgICA8RGlhbG9nVHJpZ2dlciBhc0NoaWxkPgogICAgICAgIHtjaGlsZHJlbn0KICAgICAgPC9EaWFsb2dUcmlnZ2VyPgogICAgICA8RGlhbG9nQ29udGVudCBjbGFzc05hbWU9InNtOm1heC13LVs1MDBweF0iPgogICAgICAgIDxEaWFsb2dIZWFkZXI+CiAgICAgICAgICA8RGlhbG9nVGl0bGUgY2xhc3NOYW1lPSJmb250LWRpc3BsYXkgdGV4dC0yeGwiPkFnZW5kYXIgVmlzaXRhIEdyYXR1aXRhPC9EaWFsb2dUaXRsZT4KICAgICAgICAgIDxEaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICAgICAgRXNjb2xoYSBvIG1lbGhvciBob3LDoXJpbyBwYXJhIHJlY2ViZXIgbm9zc2EgZXF1aXBlLiBBIHZpc2l0YSBkZSBhdmFsaWHDp8OjbyDDqSAxMDAlIGdyYXR1aXRhLgogICAgICAgICAgPC9EaWFsb2dEZXNjcmlwdGlvbj4KICAgICAgICA8L0RpYWxvZ0hlYWRlcj4KCiAgICAgICAge3N0ZXAgPT09IDEgPyAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02IHB5LTQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBpdGVtcy1jZW50ZXIgc206aXRlbXMtc3RhcnQgc206ZmxleC1yb3cgZ2FwLTYiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEiPgogICAgICAgICAgICAgICAgPExhYmVsIGNsYXNzTmFtZT0ibWItMiBibG9jayI+RGF0YSBkYSBWaXNpdGE8L0xhYmVsPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJvcmRlciByb3VuZGVkLW1kIGlubGluZS1ibG9jayBiZy1iYWNrZ3JvdW5kIj4KICAgICAgICAgICAgICAgICAgPENhbGVuZGFyCiAgICAgICAgICAgICAgICAgICAgbW9kZT0ic2luZ2xlIgogICAgICAgICAgICAgICAgICAgIHNlbGVjdGVkPXtkYXRlfQogICAgICAgICAgICAgICAgICAgIG9uU2VsZWN0PXtzZXREYXRlfQogICAgICAgICAgICAgICAgICAgIGxvY2FsZT17cHRCUn0KICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17KGRhdGUpID0+IGRhdGUgPCBuZXcgRGF0ZShuZXcgRGF0ZSgpLnNldEhvdXJzKDAsIDAsIDAsIDApKX0KICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIAogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4LTEgdy1mdWxsIj4KICAgICAgICAgICAgICAgIDxMYWJlbCBjbGFzc05hbWU9Im1iLTIgYmxvY2siPkhvcsOhcmlvPC9MYWJlbD4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0zIHNtOmdyaWQtY29scy0yIGdhcC0yIj4KICAgICAgICAgICAgICAgICAge3RpbWVTbG90cy5tYXAoKHNsb3QpID0+ICgKICAgICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICBrZXk9e3Nsb3R9CiAgICAgICAgICAgICAgICAgICAgICB0eXBlPSJidXR0b24iCiAgICAgICAgICAgICAgICAgICAgICB2YXJpYW50PXt0aW1lID09PSBzbG90ID8gImRlZmF1bHQiIDogIm91dGxpbmUifQogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwiCiAgICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRUaW1lKHNsb3QpfQogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHtzbG90fQogICAgICAgICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIDxCdXR0b24gCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgZm9udC1kaXNwbGF5IHRleHQtbGcgaC0xMiIgCiAgICAgICAgICAgICAgZGlzYWJsZWQ9eyFkYXRlIHx8ICF0aW1lfQogICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZU5leHR9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICBDb250aW51YXIKICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICApIDogKAogICAgICAgICAgPGZvcm0gb25TdWJtaXQ9e2hhbmRsZVN1Ym1pdH0gY2xhc3NOYW1lPSJzcGFjZS15LTQgcHktNCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1tdXRlZC81MCBwLTQgcm91bmRlZC1sZyBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4gbWItNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGdhcC0yIj4KICAgICAgICAgICAgICAgIDxDYWxlbmRhckljb24gY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+CiAgICAgICAgICAgICAgICAgIHtkYXRlID8gZm9ybWF0KGRhdGUsICJkZCAnZGUnIE1NTU0iLCB7IGxvY2FsZTogcHRCUiB9KSA6ICIifQogICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMiI+CiAgICAgICAgICAgICAgICA8Q2xvY2sgY2xhc3NOYW1lPSJ3LTQgaC00IHRleHQtcHJpbWFyeSIgLz4KICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1zbSBmb250LW1lZGl1bSI+e3RpbWV9PC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxCdXR0b24gdHlwZT0iYnV0dG9uIiB2YXJpYW50PSJsaW5rIiBzaXplPSJzbSIgb25DbGljaz17KCkgPT4gc2V0U3RlcCgxKX0gY2xhc3NOYW1lPSJoLWF1dG8gcC0wIj4KICAgICAgICAgICAgICAgIEFsdGVyYXIKICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGFiZWwgaHRtbEZvcj0ibmFtZSI+Tm9tZSBDb21wbGV0byAqPC9MYWJlbD4KICAgICAgICAgICAgICA8SW5wdXQgCiAgICAgICAgICAgICAgICBpZD0ibmFtZSIgCiAgICAgICAgICAgICAgICB2YWx1ZT17bmFtZX0gCiAgICAgICAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldE5hbWUoZS50YXJnZXQudmFsdWUpfSAKICAgICAgICAgICAgICAgIHJlcXVpcmVkIAogICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlNldSBub21lIgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAgPExhYmVsIGh0bWxGb3I9InBob25lIj5UZWxlZm9uZSAvIFdoYXRzQXBwICo8L0xhYmVsPgogICAgICAgICAgICAgIDxJbnB1dCAKICAgICAgICAgICAgICAgIGlkPSJwaG9uZSIgCiAgICAgICAgICAgICAgICB2YWx1ZT17cGhvbmV9IAogICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRQaG9uZShlLnRhcmdldC52YWx1ZSl9IAogICAgICAgICAgICAgICAgcmVxdWlyZWQgCiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iKDExKSA5OTk5OS05OTk5IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPEJ1dHRvbiB0eXBlPSJzdWJtaXQiIGNsYXNzTmFtZT0idy1mdWxsIGZvbnQtZGlzcGxheSB0ZXh0LWxnIGgtMTIgbXQtNCI+CiAgICAgICAgICAgICAgQ29uZmlybWFyIEFnZW5kYW1lbnRvCiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1jZW50ZXIgdGV4dC1tdXRlZC1mb3JlZ3JvdW5kIG10LTIiPgogICAgICAgICAgICAgIFZvY8OqIG7Do28gcGFnYXLDoSBuYWRhIHBlbGEgdmlzaXRhIHTDqWNuaWNhLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Zvcm0+CiAgICAgICAgKX0KICAgICAgPC9EaWFsb2dDb250ZW50PgogICAgPC9EaWFsb2c+CiAgKTsKfQo=
+import { useState } from "react";
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription, DialogTrigger } from "@/components/ui/dialog";
+import { Button } from "@/components/ui/button";
+import { Calendar } from "@/components/ui/calendar";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Clock, Calendar as CalendarIcon } from "lucide-react";
+import { format } from "date-fns";
+import { ptBR } from "date-fns/locale";
+
+const timeSlots = [
+  "08:00", "09:00", "10:00", "11:00", "13:00", "14:00", "15:00", "16:00", "17:00"
+];
+
+export function BookingModal({ children }: { children: React.ReactNode }) {
+  const [date, setDate] = useState<Date | undefined>(undefined);
+  const [time, setTime] = useState<string>("");
+  const [name, setName] = useState("");
+  const [phone, setPhone] = useState("");
+  const [step, setStep] = useState(1);
+  const [open, setOpen] = useState(false);
+
+  const handleNext = () => {
+    if (date && time) {
+      setStep(2);
+    }
+  };
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    // Integration logic will go here
+    console.log({ date, time, name, phone });
+  };
+
+  const handleOpenChange = (newOpen: boolean) => {
+    setOpen(newOpen);
+    if (!newOpen) {
+      setTimeout(() => {
+        setStep(1);
+        setDate(undefined);
+        setTime("");
+        setName("");
+        setPhone("");
+      }, 300);
+    }
+  };
+
+  return (
+    <Dialog open={open} onOpenChange={handleOpenChange}>
+      <DialogTrigger asChild>
+        {children}
+      </DialogTrigger>
+      <DialogContent className="sm:max-w-[500px]">
+        <DialogHeader>
+          <DialogTitle className="font-display text-2xl">Agendar Visita Gratuita</DialogTitle>
+          <DialogDescription>
+            Escolha o melhor horário para receber nossa equipe. A visita de avaliação é 100% gratuita.
+          </DialogDescription>
+        </DialogHeader>
+
+        {step === 1 ? (
+          <div className="space-y-6 py-4">
+            <div className="flex flex-col items-center sm:items-start sm:flex-row gap-6">
+              <div className="flex-1">
+                <Label className="mb-2 block">Data da Visita</Label>
+                <div className="border rounded-md inline-block bg-background">
+                  <Calendar
+                    mode="single"
+                    selected={date}
+                    onSelect={setDate}
+                    locale={ptBR}
+                    disabled={(date) => date < new Date(new Date().setHours(0, 0, 0, 0))}
+                  />
+                </div>
+              </div>
+              
+              <div className="flex-1 w-full">
+                <Label className="mb-2 block">Horário</Label>
+                <div className="grid grid-cols-3 sm:grid-cols-2 gap-2">
+                  {timeSlots.map((slot) => (
+                    <Button
+                      key={slot}
+                      type="button"
+                      variant={time === slot ? "default" : "outline"}
+                      className="w-full"
+                      onClick={() => setTime(slot)}
+                    >
+                      {slot}
+                    </Button>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            <Button 
+              className="w-full font-display text-lg h-12" 
+              disabled={!date || !time}
+              onClick={handleNext}
+            >
+              Continuar
+            </Button>
+          </div>
+        ) : (
+          <form onSubmit={handleSubmit} className="space-y-4 py-4">
+            <div className="bg-muted/50 p-4 rounded-lg flex items-center justify-between mb-4">
+              <div className="flex items-center gap-2">
+                <CalendarIcon className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">
+                  {date ? format(date, "dd 'de' MMMM", { locale: ptBR }) : ""}
+                </span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Clock className="w-4 h-4 text-primary" />
+                <span className="text-sm font-medium">{time}</span>
+              </div>
+              <Button type="button" variant="link" size="sm" onClick={() => setStep(1)} className="h-auto p-0">
+                Alterar
+              </Button>
+            </div>
+
+            <div className="space-y-2">
+              <Label htmlFor="name">Nome Completo *</Label>
+              <Input 
+                id="name" 
+                value={name} 
+                onChange={(e) => setName(e.target.value)} 
+                required 
+                placeholder="Seu nome"
+              />
+            </div>
+            
+            <div className="space-y-2">
+              <Label htmlFor="phone">Telefone / WhatsApp *</Label>
+              <Input 
+                id="phone" 
+                value={phone} 
+                onChange={(e) => setPhone(e.target.value)} 
+                required 
+                placeholder="(11) 99999-9999"
+              />
+            </div>
+
+            <Button type="submit" className="w-full font-display text-lg h-12 mt-4">
+              Confirmar Agendamento
+            </Button>
+            <p className="text-xs text-center text-muted-foreground mt-2">
+              Você não pagará nada pela visita técnica.
+            </p>
+          </form>
+        )}
+      </DialogContent>
+    </Dialog>
+  );
+}
